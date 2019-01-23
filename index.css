@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40;
+}
+
+.wrapper {
+    padding: 20px 40px;
+}
+
+img {
+    width:80%;
+}
+
+h1 , h2{
+    color:black;
+    text-align: center;
+  }
+
+  @media (min-width: 921px){
+      
+  }
