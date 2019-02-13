@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JS Drum Kit</title>
+    <link rel="icon" href="images/icon.jpeg" type="image/png">
+</head>
+<body type= "text" onkeypress = "keycode()">
+    <div class='header'>
+    <h1>Javascript Drum Kit</h1>
+</div>
+    <div id='drumImg'></div>
+    <p>Use the keyboard to play drums</p>
+
+<div class="container">    
+    <div id='drumKeys'>
+       
+        
+            <button id="a-clap">A Clap</button>
+            <button id="s-hihat">S HiHat</button>
+            <button id="d-kick">D Kick</button>
+            <button id="f-openhat">F Openhat</button>
+            <button id="g-boom">G Boom</button>
+            <button id="h-ride">H Ride</button>
+            <button id="j-snare">J Snare</button>
+            <button id="k-tom">K Tom</button>
+            <button id="l-tink">L Tink</button>
+
+    </div>
+</div>
+    <audio id="clap" volume = "60">
+        <source src="sounds/clap.wav" id="a" type="audio/wav">
+    </audio>
+    <audio id="hiHat" volume = "60">
+        <source src="sounds/hihat.wav" id="s" type="audio/wav">
+    </audio>
+    <audio id="kick" volume = "60">
+        <source src="sounds/kick.wav" id="d" type="audio/wav">
+    </audio>   
+    <audio id="openhat" volume = "60">
+        <source src="sounds/openhat.wav" id="f" type="audio/wav">
+    </audio>  
+    <audio id="boom" volume = "60">
+        <source src="sounds/boom.wav" id="g" type="audio/wav">
+    </audio>
+    <audio id="ride" volume = "60">
+        <source src="sounds/ride.wav" id="h" type="audio/wav">
+    </audio>
+    <audio id="snare" volume = "60">
+        <source src="sounds/snare.wav" id="j" type="audio/wav">
+    </audio>    
+    <audio id="tom" volume = "60">
+        <source src="sounds/tom.wav" id="k" type="audio/wav">
+    </audio>         
+    <audio id="tink" volume = "60">
+        <source src="sounds/tink.wav" id="l" type="audio/wav">
+    </audio>
+
+
+    <script src="app.js"></script>
+
+
+    
+</body>
+</html>

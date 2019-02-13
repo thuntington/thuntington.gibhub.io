@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(images/universe.jpg);
+    background-repeat: repeat;
+    background-size: cover; 
+}
+
+
+.clock {
+    height: 500px;
+    width: 500px;
+    background-image: url(images/moon.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+.clock:hover {
+    display: block;
+    border-color: white;
+    outline: 0;
+    box-shadow: 10px 10px 20px grey, 0 0 25px grey, 0 0 50px white;
+    z-index: 6;
+}
+
+.clock:hover #hours {
+    background-color: darkred;
+    box-shadow: 10px 10px 20px grey, 0 0 25px darkred, 0 0 50px white;
+}
+
+.clock:hover #minutes {
+    background-color: darkred;
+    box-shadow: 10px 10px 20px grey, 0 0 25px darkred, 0 0 50px white;
+}
+
+.clock:hover #seconds {
+    background-color: darkred;
+    box-shadow: 10px 10px 20px grey, 0 0 25px darkred, 0 0 50px white;
+}
+
+
+
+.center {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background: #000;
+    border-radius: 100%;
+}
+
+#seconds {
+    position: absolute;
+    height: 160px;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 160px;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    transform-origin: bottom;
+    background: #11526c;
+}
+
+#minutes {
+    position: absolute;
+    height: 200px;
+    width: 6px;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    transform-origin: bottom;
+  }
+  
+  #hours {
+    position: absolute;
+    height: 80px;
+    width: 6px;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    transform-origin: bottom;
+  }
+
+  .twelve {
+      position: absolute;
+      width: 6px;
+      height: 30px;
+      background: #000;
+      left: 0;
+      top: 0;
+      right: 0;
+      margin: 0 auto;
+  }
+
+ .six {
+     position: absolute;
+     width: 6px;
+     height: 30px;
+     background: #000;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+ }
+
+ .three {
+     position: absolute;
+     width: 30px;
+     height: 6px;
+     background: #000;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     margin: auto;
+ }
+
+ .nine {
+     position: absolute;
+     width: 30px;
+     height: 6px;
+     top: 0;
+     bottom:0;
+     left: 0;
+     margin: auto;
+     background: #000;
+
+ }
+
+ .one {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top: 0px;
+    bottom: 403px;
+    right: 118px;
+    margin: auto;
+    background: #111111;
+    transform: rotateZ(126deg);
+
+ }
+
+ .two {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top: 0px;
+    bottom: 236px;
+    right: 31px;
+    margin: auto;
+    background: #111111;
+    transform: rotateZ(146deg);
+
+ }
+
+ .four {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top: 228px;
+    bottom: 0px;
+    right: 32px;
+    margin: auto;
+    background: #111111;
+    transform: rotateZ(206deg);
+
+ }
+
+ .five {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top: 397px;
+    bottom: 0px;
+    right: 116px;
+    margin: auto;
+    background: #111111;
+    transform: rotateZ(237deg);
+
+ }
+
+ .seven {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top: 390px;
+    bottom: 0px;
+    left: 108px;
+    margin: auto;
+    background: #111111;
+    transform: rotateZ(304deg);
+
+ }
+
+.eight {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top: 228px;
+    bottom: 0px;
+    left: 32px;
+    margin: auto;
+    background: #111111;
+    transform: rotateZ(150deg);
+
+}
+
+.ten{
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top: 0px;
+    bottom: 236px;
+    left: 34px;
+    margin: auto;
+    background: #111111;
+    transform: rotateZ(210deg);
+
+}
+
+.eleven {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top: 0px;
+    bottom: 403px;
+    left: 118px;
+    margin: auto;
+    background: #111111; 
+    transform: rotateZ(56deg);
+
+}
+
+#container {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+}
+
+#digitalMars {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-image: url(images/mars.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#digiClock  {
+    position: absolute;
+    top: 107px;
+    left: 39px;
+    bottom: 0;
+    right: 0;
+    color: red;
+    font-size: 35px;
+    font-family: "Orbitron" , sans-serif;
+    background-color: black;
+    height: 34px;
+    width: 175px;
+}
+
+#digitalMars:hover{
+    border-color: red;
+    outline: 0;
+    box-shadow: 10px 10px 20px grey, 0 0 25px darkred, 0 0 50px red;
+}
+
+#digitalMars:hover #digiClock {
+color: white;
+}
+
+
+#star1 {
+    position: absolute;
+    height: 26%;
+    width: 25%;
+    top: -464px;
+    left: 0;
+    right: 56px;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+}

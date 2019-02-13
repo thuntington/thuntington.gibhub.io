@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url(/DrumKit/images/bluedrum.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(178, 207, 224);
+    font-family: 'Bree Serif' , sans-serif;
+    font-size: 40px;
+}
+
+#drumKeys {
+    display: flex;
+    height: 50px;
+    margin-bottom: 5%;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.header {
+display: flex;
+justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bree Serif' , sans-serif;
+    color: azure;
+}
+
+#drumKeys button {
+    border-radius: 20%;
+    color: black;
+    width: 100px;
+    background-color: rgb(178, 207, 224);
+    font-family: 'Bree Serif' , sans-serif;
+    border-color: black;
+
+}
