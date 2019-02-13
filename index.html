@@ -1,67 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>MyFirstHTML</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
+    <title>Tom Huntington Portfolio</title>
+    <link rel="stylesheet" media="screen" href="main.css">
 </head>
 <body>
-   <div class ="Wrapper">
-        <h1>Tom huntington Portfolio</h1>
-        <h2>Working Progress!</h2>
-        <br>
-            <img src="buildingFog.jpeg" alt="Design">
-        <br>
-   </div> 
-   <div>
-        <br>
-            <h2>Here is a collection of creations</h2>
-            <h3>That is yet to exist</h3> 
-            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-        <br>
-<div>    
-    <h4>List of Items</h4>
-    <ul>
-        <li>Javascript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Python</li>
-    </ul>
-</div>
-<div>
-    <h5>List of Brands</h5>
-    <ol>
-        <li>Gibson </li>
-        <li>Gretsch</li>
-        <li>Schecter</li>
-        <li>Fender</li>
-    </ol> 
-</div>    
-<div>
-    <h6>List of trees</h6>
-   <dl>
-       <dt>Red Maple</dt>
-       <dd> <em>Acer rubrum</em> </dd>
-        <dt>Hawthorn</dt>
-        <dd> <em>Crataegus</em> </dd>
-        <dt>Tulip Tree</dt>
-        <dd> <em>Liriodendron tulipifera</em> </dd>
-    </dl>
-</div>    
-<div>
-    <h3>List of Beverages</h3>
-    <ul>
-        <li>Coffee</li>
-        <li>Tea
-    <ul>
-        <li>Black tea</li>
-        <li>Green tea</li>
-    </ul>
-        </li>
-        <li>Milk</li>
-    </ul>
-</div>
+    <!-- HEADER -->
+    <header id="page-header">
+       <!-- LOGO -->
+        <h2 id="page-header">
+            <img src="Image/Profile.png" alt="Profile pic">
+            Tom Huntington | Portfolio
+        </h2>
 
-</div>
+       <!-- NAVIGATION -->
+
+        <nav id="main-navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+
+    <div id="page-main">
+
+       <!-- HERO -->
+
+       <div class="hero">
+           <div class="hero-content">
+               <h1 class="hero-title">
+                    CodeNation | Portfolio
+               </h1>
+           </div>
+           
+       </div>
+
+       <!-- PORTFOLIO -->
+
+       <div id="portfolio" class="site-section">
+
+        <div class="section-header">
+            <h2> Portfolio</h2>
+        </div>
+
+        <div class="portfolio-box-inside">
+
+        <div class="portfolio-box">
+            <img src="Image/code.png" alt="">
+            <h4>Zen Garden</h4>
+        </div>
+
+        <div class="portfolio-box">
+                <img src="Image/code2.png" alt="">
+                <h4>Airport</h4>
+            </div>
+
+            <div class="portfolio-box">
+                    <img src="Image/code3.png" alt="">
+                    <h4>Buttons</h4>
+                </div>
+            </div>
+
+       </div>
+
+       <!-- ABOUT -->
+
+       <div id="about" class="section-header-about">
+           <h2>About Me</h2>
+           <p> orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+       </div>
+
+       <!-- CONTACT-->
+    
+       <div id="contact" class="section-header-contact">
+            <h2>Contact Me</h2>
+            <p> Email: thuntington994@gmail.com</p>
+        </div>
+    
+    </div>   
+    <!-- FOOTER -->   
+    <footer id="page-footer">
+        <img src="Image/Profile.png" alt="footer avatar">
+        <span>Tom Huntington Portfolio <br />&copy; 2019</span>
+
+        
+
+    </footer>
+    
 </body>
 </html>
