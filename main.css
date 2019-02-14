@@ -128,13 +128,15 @@ footer img {
 }
 
 .portfolio-box img {
-    box-shadow: 2px 2px 2px 3px black;
+    
     border-radius: 100%;
     height: 50%;
+    border: solid 2px black;
 }
 
 .portfolio-box img:hover {
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+    box-shadow: 2px 2px 5px 3px black;
 }
 
 .section-header-about {
